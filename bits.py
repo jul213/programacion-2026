@@ -9,3 +9,5 @@ def revisar_luces(byte_entrada):
         print(f"ON luz {i+1} encendida")
     else:
         print(f"OFF luz {i+1} apagada")
+
+revisar_luces(13)
