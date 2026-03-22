@@ -4,5 +4,8 @@ def revisar_luces(byte_entrada):
 
     for i in range(8):
         mask = 1 << i
-        
 
+    if byte_entrada & mask:
+        print(f"ON luz {i+1} encendida")
+    else:
+        print(f"OFF luz {i+1} apagada")
